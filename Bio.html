@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biography</title>
+    <link rel="stylesheet" href="css/bio.css">
+</head>
+<body>
+<div align="center">
+<h1>Bio</h1>
+<p>Hi, my name is Adrian Fernandez.</p>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/adrian.jpg" alt="Adrian wearing shades" width="400" height="400">
+<br>
+
+
+<a href="Family.html"> Family page</a>
+<a href="job_hobby.html"> Job/Hobby page</a>
+<a href="major.html"> Major page</a>
+
+</div>
+</body>
+<script>
+    function bigImg(x) {
+        x.style.height = "600px";
+        x.style.width = "600px";
+    }
+
+    function normalImg(x) {
+        x.style.height = "400px";
+        x.style.width = "400px";
+    }
+</script>
+</html>
+
+
