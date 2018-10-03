@@ -11,22 +11,59 @@
     <p>This is my major I am studying towards.</p>
 
     <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/programing.png" alt="Programing Image" width="1080" height="400">
+
     <br>
 
+    <table>
+        <tr>
+            <td>
+                <i><h3 style="font-family:calibri;">Click on the image to return to my biography page&nbsp&nbsp</h3></i>
+            </td>
+            <td>
+                <a href="Bio.html"><img src="images/adrian.jpg" width="76" id="i1"
+                                       onmouseover=buttonImg(this)
+                                       onmouseout=buttonImg2(this)></a><br>
+            </td>
+        </tr>
+    </table>
 
+    <table>
+        <tr>
+            <td>
+                <i><h3>Click on the image to visit my family page</h3></i>
+            </td>
+            <td>
+                <a href="Family.html"><img   width="76" id="i2"
+                                             onmouseover="buttonImg(this)"
+                                             onmouseout="buttonImg2(this)" src="images/Family.jpg"></a>
+                <br>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <i><h3>Click on the image to visit my hobby page&nbsp&nbsp</h3></i>
+            </td>
+            <td>
+                <a href="job_hobby.html"><img src="images/gaming_photo.jpg" width="76" id="i3"
+                                              onmouseover="buttonImg(this)"
+                                              onmouseout="buttonImg2(this)"></a><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <i><h3>Click on the image to visit my major page&nbsp&nbsp</h3></i>
+            </td>
+            <td>
+                <a href="major.html"><img src="images/programing.png" width="76" id="i4"
+                                          onmouseover="buttonImg(this)"
+                                          onmouseout="buttonImg2(this)"></a><br>
+            </td>
+        </tr>
+    </table>
     <a href="Bio.html"> Bio page</a>
     <a href="https://www.bmcc.cuny.edu/cis/csc_program.jsp"> My Major</a>
 </div>
 </body>
-<script>
-    function bigImg(x) {
-        x.style.height = "550px";
-        x.style.width = "1150px";
-    }
-
-    function normalImg(x) {
-        x.style.height = "400px";
-        x.style.width = "1080px";
-    }
-</script>
+<script src="js/functions.js"></script>
 </html>

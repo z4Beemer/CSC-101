@@ -10,23 +10,28 @@
     <h1>My Hobby</h1>
     <p>My hobby is playing video games.</p>
 
-    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" "" src="images/gaming_photo.jpg" alt="Boy playing game" width="600" height="400">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/gaming_photo.jpg" alt="Boy playing game" width="600" height="400">
+
     <br>
+
+    <table>
+        <tr>
+            <td>
+                <i><h3 style="font-family:calibri;">Click on the image to return to my biography page&nbsp&nbsp</h3></i>
+            </td>
+            <td>
+                <a href="Bio.html"><img src="images/adrian.jpg" width="76" id="i1"
+                                       onmouseover="buttonImg(this)"
+                                       onmouseout="buttonImg2(this)"></a><br>
+            </td>
+        </tr>
+    </table>
+
 
 
     <a href="Bio.html"> Bio page</a>
     <a href="http://profile.majorleaguegaming.com/Z4beemer/?mlg_source=header"> My MLG Stats</a>
 </div>
 </body>
-<script>
-    function bigImg(x) {
-        x.style.height = "600px";
-        x.style.width = "800px";
-    }
-
-    function normalImg(x) {
-        x.style.height = "400px";
-        x.style.width = "600px";
-    }
-</script>
+<script src="js/functions.js"></script>
 </html>
